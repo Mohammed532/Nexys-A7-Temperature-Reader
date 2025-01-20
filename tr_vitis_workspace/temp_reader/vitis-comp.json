@@ -1,0 +1,15 @@
+{
+  "name": "temp_reader",
+  "type": "HOST",
+  "platform": "a750t_temp_sensor",
+  "domain": "standalone_microblaze_0",
+  "cpuInstance": "microblaze_0",
+  "cpuType": "microblaze",
+  "os": "standalone",
+  "configuration": {
+    "componentType": "HOST",
+    "hostToolchainConfigurations": []
+  },
+  "domainRealName": "standalone_microblaze_0",
+  "applicationFlow": "EMBEDDED"
+}

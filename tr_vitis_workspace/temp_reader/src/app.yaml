@@ -1,0 +1,4 @@
+domain_path: C:\Users\Mo\Documents\A7-50T_Temperature_Reader\tr_vitis_workspace\a750t_temp_sensor\export\a750t_temp_sensor\sw\standalone_microblaze_0
+app_src_dir: C:\Xilinx\Vitis\2024.2\data\embeddedsw\lib\sw_apps\empty_application
+template: empty_application
+lang: c

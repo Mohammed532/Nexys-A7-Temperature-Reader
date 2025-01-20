@@ -1,0 +1,10 @@
+A7-50T_Temperature_Reader.cache/
+A7-50T_Temperature_Reader.ip_user_files/
+A7-50T_Temperature_Reader.sim/
+A7-50T_Temperature_Reader.runs/
+A7-50T_Temperature_Reader.hw/
+
+#swaps
+*.swp
+*.un~
+

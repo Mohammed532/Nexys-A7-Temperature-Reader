@@ -1,0 +1,15 @@
+axi_gpio_btns:
+- axi_gpio
+- gpio
+axi_gpio_seven_seg:
+- axi_gpio
+- gpio
+axi_iic_0:
+- axi_iic
+- iic
+axi_uartlite_0:
+- axi_uartlite
+- uartlite
+microblaze_0_axi_intc:
+- axi_intc
+- intc
