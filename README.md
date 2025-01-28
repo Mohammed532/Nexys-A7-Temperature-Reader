@@ -20,4 +20,20 @@ Screenshots of the hardware block design.
 
 ## Project Navigation
 
-Directory for the C baremetal code is in [/tr_vitis_workspace/temp_reader/src/](tr_vitis_workspace/temp_reader/src), with [main.c](tr_vitis_workspace/temp_reader/src/main.c) as the entry point.
+This project is divided into two parts: 
+- Hardware Implementation (Microblaze, VHDL)
+- Software Implementation (C)
+
+The main focus of this project was to build skills in embedded programming in C, so even though this repository has both the hardware file and software file, most of the work/learning was done for the software side of things (still learned a lot about working with the Microblaze core and implementing Xilinx IP)
+
+### Hardware (HDL)
+
+Hardware was configured through HDL wrapper generated from the block design (see [Block Design](#block-design)). The VHDL code generated isn't really useful beyond the context of the block design, but can still be found [here](A7-50T_Temperature_Reader.gen/sources_1/bd/temp_reader_bd/hdl/temp_reader_bd_wrapper.vhd).
+
+
+### Software
+
+Directory for the C baremetal code is in [/tr_vitis_workspace/temp_reader/src/](tr_vitis_workspace/temp_reader/src)
+- Entry Point: [main.c](tr_vitis_workspace/temp_reader/src/main.c)
+- Seven Segment Driver: [sevseg_writer.c](tr_vitis_workspace/temp_reader/src/sevseg_writer.c)
+- Tempurature Sensor Driver: [temp_sensor_reader.c](tr_vitis_workspace/temp_reader/src/temp_sensor_reader.c)
